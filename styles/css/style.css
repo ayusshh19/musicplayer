@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+    overflow-x: hidden;
+  }
+/* navbar */
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+}
+.logo img{
+    width: 100px;
+    border-radius: 60px;
+}
+.mainul{
+    display: flex;
+    background-color: rgb(200,214,229,0.4);
+    border-radius: 80px;
+}
+.navitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navitems li{
+    list-style: none;
+    margin: 0px 50px;
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navitems li:hover{
+    background-color: #54a0ff;
+    border-radius: 25px;
+    color: white;
+    
+}
+.navitems li input{
+    border-radius: 20px;
+    width: 250px;
+    padding: 10px
+}
+/* navbar */
+
+/* playlist */
+
+.playlist,.mainplayer{
+    background-color: rgb(255,255,255,0.4);
+    height: 700px;
+    border-radius: 39px;
+}
+.playlist h1,.mainplayer h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* playlist */
+/* mainplaylist */
+.mainplayer{
+    position: relative;
+}
+.player{
+    position: absolute;
+    bottom: 0%;
+    width: 200px;
+    margin: auto;
+}
+
+.pause{
+    background-color: rgb(255,255,255,0.4);
+    border-radius: 25px;
+    padding: 15px;
+}
+.play{
+    background-color: rgba(46, 237, 8, 0.308);
+    border-radius: 25px;
+    padding: 15px;
+}
+#range{
+width: 1150px;
+}
+.musicsongs .songlogo{
+    width: 90px;
+    height: 70px;
+    border-radius: 60px;
+}
+
+.play{
+    background-color: rgb(255,255,255,0.4);
+    border-radius: 35px;
+}
+
+.songs{
+    color: white;
+    background-color: rgb(255,255,255,0.2);
+    border-radius: 20px;
+    padding: 10px;
+}
+.songs:hover h4{
+    font-size: 25px;
+}
+.mainplayer .row{
+    display: none;
+}
+.mainhead{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

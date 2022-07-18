@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="styles/css/style.css">
+    <script src="styles/index.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <nav class="mainnav">
+            <div class="mainul">
+                <ul class="logo col-2"><img src="styles/images/Capture.PNG" alt="" srcset=""></ul>
+                <ul class="navitems col-10">
+                    <li class="first">NEW HOME</li>
+                    <li class="second">ABOUT</li>
+                    <li class="third">CONTACT</li>
+                    <li><img src="styles/images/night.png" class="nightmode" alt="" srcset=""></li>
+                    <li><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="row ">
+        <div class="playlist overflow-auto col-3 m-4">
+            <h1 class="text-center">Playlist</h1>
+            <div class="musicsongs m-2 " data-bs-spy="scroll" >
+                <div class="row songs ">
+                    <img src="styles/images/download1.jpeg" class="col-4 songlogo" alt="" srcset="">
+                    <div class="col-6">
+                        <h5 >Lae dooba(Currently not available will be available soon yess still)</h5>
+                    <h6>Song by Ayush shukla
+                    </h6>
+                </div>
+                    <img src="styles/images/play.png" class="col-2 play" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+        <div class="mainplayer col-8 m-3">
+            <h1 class="text-center main-head">Main Player</h1>
+            <div class="row">
+                <div class="content col-5">
+                        <h2 class="mainhead">Now Playing-</h2>
+                        <h3 class="title" style="color: white;"></h3>
+                </div>
+                <img src="" alt="" class="image col-5" style="width: 400px;height:400px;position:relative;left:250px" >
+            </div>
+            <div class="player container m-3 w-100 m-auto ">
+                <div class="range">
+                    <span class="current">0:00</span>
+                    <input type="range" name="range" class="text-center position-relative m-auto" value="0" id="range">
+                    <span class="endingtime"></span>
+                </div>
+                <div class="m-4 text-center">
+                    <span class="m-3 back"><img src="styles/images/backward.png" alt="" srcset=""></span>
+                <span class="m-3 pause"><img src="styles/images/pause.png" alt="" srcset=""></span>
+                <span class="m-3 forward"><img src="styles/images/next.png" alt="" srcset=""></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
