@@ -23,6 +23,10 @@ body {
     width: 100px;
     border-radius: 60px;
 }
+
+.mainnav{
+    padding-top: 20px;;
+}
 .mainul{
     display: flex;
     background-color: rgb(200,214,229,0.4);
