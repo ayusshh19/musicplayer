@@ -71,13 +71,6 @@ let obj = [
         songby: "Song by Sunidhi Chauhan",
         img: "download12.jpg",
         mp3: "Kun Faaya Kun Rockstar 2012 128.mp3",
-    },
-    {
-        id: 12,
-        song: "Humsafar",
-        songby: "Song by Janhavi chaudhari",
-        img: "download12.jpeg",
-        mp3: "WhatsApp Audio 2022-07-07 at 9.02.02 PM.mpeg",
     }
 ];
 for (const item of obj) {
