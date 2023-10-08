@@ -8,6 +8,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: black;
 }
 body {
     overflow-x: hidden;
@@ -50,7 +51,7 @@ body {
 .navitems li:hover{
     background-color: #54a0ff;
     border-radius: 25px;
-    color: white;
+    color: black;
     
 }
 .navitems li input{
@@ -68,7 +69,7 @@ body {
     border-radius: 39px;
 }
 .playlist h1,.mainplayer h1{
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* playlist */
@@ -108,7 +109,7 @@ width: 1150px;
 }
 
 .songs{
-    color: white;
+    color: black;
     background-color: rgb(255,255,255,0.2);
     border-radius: 20px;
     padding: 10px;
@@ -122,6 +123,6 @@ width: 1150px;
 .mainhead{
     font-weight: bold;
     font-size: 40px;
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
